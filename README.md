@@ -1,5 +1,5 @@
 # Platform_Game
-- Game.py
+- Game.py:
  Main file
-- Classes.py
+- Classes.py:
  Contains Classes
