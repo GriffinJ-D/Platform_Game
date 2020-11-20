@@ -74,16 +74,16 @@ while True:
                 Yours.speedy -= 20
                 print("w")
             if event.key == pygame.K_a:
-                Yours.speedx -= 10
+                Yours.speedx -= 11
             if event.key == pygame.K_d:
-                Yours.speedx += 10
+                Yours.speedx += 11
         if event.type == pygame.KEYUP:
             # if event.key == pygame.K_w:
             #     Yours.speedy += 20
             if event.key == pygame.K_a:
-                Yours.speedx += 10
+                Yours.speedx += 11
             if event.key == pygame.K_d:
-                Yours.speedx -= 10
+                Yours.speedx -= 11
     yours_drawn = pygame.Rect(Yours.X, Yours.Y, 50, 50)
     beforex = Yours.X
     beforey = Yours.Y
